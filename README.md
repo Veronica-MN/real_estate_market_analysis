@@ -71,3 +71,53 @@ The preprocessing step in this project involves
 
 ## Part 5: Data Intepretation and Recommendations
 
+### Customer Profile
+
+**Customer profiles** help real estate owners and developers identify ideal buyers, but the high demand for affordable housing in US and European cities complicates this. Exclusive luxury developments, however, can effectively target potential customers through ads on platforms like Facebook and YouTube. Typically, homebuyers are aged 31 to 42, with those aged 36 to 42 being the most likely due to their financial stability.
+
+![]()
+
+The statistical sample consists of only about a hundred customers, so a larger sample is needed for more conclusive results. However, with sufficient data, real estate firms can create an ideal buyer profile to identify and target potential customers through ads on platforms like YouTube, Google, and Facebook.
+
+
+### Building Characteristics
+
+The second list provides straightforward information about the characteristics of the buildings in our dataset, including:
+
+    - Areas with the most properties sold
+    - Sold property prices
+    - The time period during which the sales occurred
+    
+Such property data is widely available and can include detailed information like the floor, orientation, and window style. This allows for the creation of a comprehensive overview of the market and its trends. 
+
+**Interpretation**
+
+#### Breakdown by Building
+
+Based on the data, we can deduce that most of the building are type 2 and 3:
+![]()
+
+
+The average price and deal satisfaction shows:
+
+![]()
+
+Type 4 properties have the highest average sale prices at $290,000 and the highest average deal satisfaction at 3.9. These buildings also cover the largest area and likely feature more luxurious or spacious apartments. However, they sell less frequently due to their higher cost per square meter. Customers tend to prefer smaller, less expensive types 2 and 3. Real estate developers can use this data to strategize by either focusing on standard building types for more average-priced sales or investing in luxurious apartments to achieve higher deal satisfaction.
+
+#### Sales by Country
+
+The geographical data, shows that 90% of the sales come from the United States:
+![]()
+
+
+#### Total Number of Sales per Year by Building
+
+Integrate this information with the timing of sales by examining the stacked area chart of the total number of sales per year by building type.
+
+![]()
+
+We observe that 2007 had the highest number of sales, coinciding with the period just before the market crash in the United States. Interestingly, there were no sales recorded in 2009, as highlighted by our line and stacked area charts. This crucial information has been explicitly included in the project's final section.
+
+![]()
+
+We can conduct a similar analysis of customers and buildings when we obtain more recent data, allowing us to identify and extract current trends.
