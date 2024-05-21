@@ -1,6 +1,6 @@
 # Real Estate Market Analysis
 
-# Data Source
+## Data Source
 
 The data in this Real Estate Market Analysis with Python project includes two .csv files, divided into two main tables. 
 1. The first dataset contains details about the properties, including ID, building details, sale date, etc.
@@ -8,7 +8,7 @@ The data in this Real Estate Market Analysis with Python project includes two .c
 
 # Approach
 
-# Part 1: Data Processing
+## Part 1: Data Processing
 The preprocessing step in this project involves
 - cleaning the `Properties` Dataset by:
     - creating a copy of the original dataset: this safeguards the raw data incase there are accidental modifications made. We make use of the copy instead
@@ -25,7 +25,7 @@ The preprocessing step in this project involves
 - Merging the two datasets
     - merge the cleaned **Properties** and **Customer** datasets
 
-# Part 2: Descriptive Statistics
+## Part 2: Descriptive Statistics
 
 - Breakdown by Building
   We create a variable named `data` to hold the dataset and display the first five rows for an overview. Using the .describe() method with include=all, we obtain descriptive statistics 
@@ -44,7 +44,7 @@ The preprocessing step in this project involves
   data. We set state values to missing (pd.NA) for non-US customers. After cleaning, we ensure consistency and sort the data by sold values. We add `relative_frequency` and 
   `cumulative_frequency` columns to the sold_by_state data frame for a detailed frequency analysis using pandas’ .cumsum() method
 
-# Part 3: Data Analysis
+## Part 3: Data Analysis
 
 - Analysing Customer Age
   We calculate `age_at_purchase` by finding the difference between `date_of_sale` and `birth_date`, converting the result to years, and rounding down. After obtaining these values, we 
@@ -61,7 +61,7 @@ The preprocessing step in this project involves
    extent of their relationship. We then compute the correlation coefficient to further examine this relationship, exploring differences between 
   population and sample correlations and validating our results.
 
-# Part 4: Data Visualisation
+## Part 4: Data Visualisation
 
 1. Deal Satisfaction by Country Chart
 2. Age Distribution Histogram
@@ -69,5 +69,5 @@ The preprocessing step in this project involves
 4. Total Sales per Year Line Chart
 5. Total Sales per Year and Building Stacked Area Chart
 
-# Part 5: Data Intepretation and Recommendations
+## Part 5: Data Intepretation and Recommendations
 
