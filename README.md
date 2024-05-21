@@ -75,7 +75,7 @@ The preprocessing step in this project involves
 
 **Customer profiles** help real estate owners and developers identify ideal buyers, but the high demand for affordable housing in US and European cities complicates this. Exclusive luxury developments, however, can effectively target potential customers through ads on platforms like Facebook and YouTube. Typically, homebuyers are aged 31 to 42, with those aged 36 to 42 being the most likely due to their financial stability.
 
-![]()
+![customer_profile](images/customer_profile.png)
 
 The statistical sample consists of only about a hundred customers, so a larger sample is needed for more conclusive results. However, with sufficient data, real estate firms can create an ideal buyer profile to identify and target potential customers through ads on platforms like YouTube, Google, and Facebook.
 
@@ -95,29 +95,31 @@ Such property data is widely available and can include detailed information like
 #### Breakdown by Building
 
 Based on the data, we can deduce that most of the building are type 2 and 3:
-![]()
+
+![breakdown_by_building](images/breakdown_by_building.png)
 
 
 The average price and deal satisfaction shows:
 
-![]()
+![breakdown_building_deal_satisfaction](images/breakdown_building_deal_satisfaction.png)
 
 Type 4 properties have the highest average sale prices at $290,000 and the highest average deal satisfaction at 3.9. These buildings also cover the largest area and likely feature more luxurious or spacious apartments. However, they sell less frequently due to their higher cost per square meter. Customers tend to prefer smaller, less expensive types 2 and 3. Real estate developers can use this data to strategize by either focusing on standard building types for more average-priced sales or investing in luxurious apartments to achieve higher deal satisfaction.
 
 #### Sales by Country
 
 The geographical data, shows that 90% of the sales come from the United States:
-![]()
+
+![sales_by_country](images/sales_by_country.png)
 
 
 #### Total Number of Sales per Year by Building
 
 Integrate this information with the timing of sales by examining the stacked area chart of the total number of sales per year by building type.
 
-![]()
+![total_num_sales_building1](images/total_num_sales_building1.png)
 
 We observe that 2007 had the highest number of sales, coinciding with the period just before the market crash in the United States. Interestingly, there were no sales recorded in 2009, as highlighted by our line and stacked area charts. This crucial information has been explicitly included in the project's final section.
 
-![]()
+![total_num_sales_building2](images/total_num_sales_building2.png)
 
 We can conduct a similar analysis of customers and buildings when we obtain more recent data, allowing us to identify and extract current trends.
