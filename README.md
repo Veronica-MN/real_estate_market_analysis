@@ -8,7 +8,13 @@ The data in this Real Estate Market Analysis with Python project includes two .c
 
 # Approach
 
+## Master Data Management (MDM)
+As part of our commitment to ensuring high data quality and consistency, we have incorporated Master Data Management (MDM) principles into our project. This involves comprehensive data profiling, cleaning, standardization, and integration to create a unified dataset that is reliable and ready for advanced analysis.
+
 ## Part 1: Data Processing
+
+### Data Cleaning and Standardization 
+
 The preprocessing step in this project involves
 - cleaning the `Properties` Dataset by:
     - creating a copy of the original dataset: this safeguards the raw data incase there are accidental modifications made. We make use of the copy instead
@@ -24,6 +30,15 @@ The preprocessing step in this project involves
 
 - Merging the two datasets
     - merge the cleaned **Properties** and **Customer** datasets
+
+### Data Profiling and Initial Analysis
+Detailed data profiling was conducted to identify key data quality issues. Comprehensive HTML reports were generated using pandas-profiling, providing insights into missing values, duplicate records, data types, and value distributions.
+
+### Data Integration
+The cleaned datasets were merged to create a unified dataset, resolving any conflicts and ensuring data consistency.
+
+For more detailed steps and insights, please refer to the [project summary report](project_summary.md).
+
 
 ## Part 2: Descriptive Statistics
 
