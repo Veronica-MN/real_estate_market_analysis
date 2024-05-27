@@ -150,7 +150,7 @@ To create a comprehensive, integrated dataset for further analysis and operation
 - **Customers** can own multiple **Properties**.
 
 **ER Diagram:**
-
+```plaintext
 +--------------+ +----------------+
 | Customers | | Properties |
 +--------------+ +----------------+
