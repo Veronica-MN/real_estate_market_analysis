@@ -147,7 +147,7 @@ To create a comprehensive, integrated dataset for further analysis and operation
   - **Properties**: Stores property details.
 
 **Relationships:**
-- **Customers** can own multiple **Properties**.
+- **Customers** can own multiple **Properties**
 
 +--------------+       +----------------+
 |  Customers   |       |   Properties   |
@@ -183,11 +183,6 @@ To create a comprehensive, integrated dataset for further analysis and operation
 +---------------------+      +---------------------+      +------------------+      +------------------+
 
 
-# Conclusion
-
-Through meticulous data profiling, cleaning, standardization, and integration, we have successfully created a unified dataset that is reliable and consistent. 
-This dataset is well-suited for advanced analysis and decision-making processes, embodying the principles of effective Master Data Management. 
-This MDM project demonstrates the importance of maintaining high data quality standards and provides a robust framework for future data integration efforts.
 
 
 
