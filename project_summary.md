@@ -151,18 +151,19 @@ To create a comprehensive, integrated dataset for further analysis and operation
 
 **ER Diagram:**
 
-+--------------+       +----------------+
-|  Customers   |       |   Properties   |
-+--------------+       +----------------+
-| customerid   |<------| customerid     |
-| name         |       | id             |
-| surname      |       | building       |
-| full_name    |       | date_sale      |
-| birth_date   |       | type           |
-| purpose      |       | area           |
-| source       |       | price          |
-+--------------+       | status         |
-                       +----------------+
++--------------+ +----------------+
+| Customers | | Properties |
++--------------+ +----------------+
+| customerid |<------| customerid |
+| name | | id |
+| surname | | building |
+| full_name | | date_sale |
+| birth_date | | type |
+| purpose | | area |
+| source | | price |
++--------------+ | status |
++----------------+
+
 
 # Data Flow Diagrams
 ## Data Flow Diagram Description:
