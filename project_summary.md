@@ -147,8 +147,8 @@ To create a comprehensive, integrated dataset for further analysis and operation
   - **Properties**: Stores property details.
 
 **Relationships:**
-- **Customers** can own multiple **Properties**
-
+**Customers** can own multiple **Properties**
+```plaintext
 +--------------+       +----------------+
 |  Customers   |       |   Properties   |
 +--------------+       +----------------+
