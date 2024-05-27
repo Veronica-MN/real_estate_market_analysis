@@ -150,42 +150,20 @@ To create a comprehensive, integrated dataset for further analysis and operation
 - **Customers** can own multiple **Properties**.
 
 **ER Diagram:**
+
 ```plaintext
-+--------------+ +----------------+
-| Customers | | Properties |
-+--------------+ +----------------+
-| customerid |<------| customerid |
-| name | | id |
-| surname | | building |
-| full_name | | date_sale |
-| birth_date | | type |
-| purpose | | area |
-| source | | price |
-+--------------+ | status |
-+----------------+
++--------------+       +----------------+
+|  Customers   |       |   Properties   |
++--------------+       +----------------+
+| customerid   |<------| customerid     |
+| name         |       | id             |
+| surname      |       | building       |
+| full_name    |       | date_sale      |
+| birth_date   |       | type           |
+| purpose      |       | area           |
+| source       |       | price          |
++--------------+       | status         |
+                       +----------------+
+```plaintext
 
 
-# Data Flow Diagrams
-## Data Flow Diagram Description:
-
-Stages:
-
-- Raw Data Collection: Collect data from multiple sources (e.g., databases, CSV files).
-- Data Cleaning: Apply cleaning procedures to handle missing values, remove duplicates, and standardize formats.
-- Data Integration: Merge datasets based on unique identifiers to create a unified dataset.
-- Data Usage: Use the unified dataset for analysis, reporting, and decision-making.
-
-## Data Flow Diagram:
-
-+---------------------+      +---------------------+      +------------------+      +------------------+
-| Raw Data Collection | ---> | Data Cleaning       | ---> | Data Integration | ---> | Data Usage       |
-|                     |      |                     |      |                  |      |                  |
-| - Properties.csv    |      | - Handle missing    |      | - Merge datasets |      | - Analysis       |
-| - Customers.csv     |      |   values            |      | - Resolve        |      | - Reporting      |
-|                     |      | - Remove duplicates |      |   conflicts      |      | - Decision-making|
-+---------------------+      +---------------------+      +------------------+      +------------------+
-
-
-# Conclusion
-
-Through meticulous data profiling, cleaning, standardization, and integration, we have successfully created a unified dataset that is reliable and consistent. This dataset is well-suited for advanced analysis and decision-making processes, embodying the principles of effective Master Data Management. This MDM project demonstrates the importance of maintaining high data quality standards and provides a robust framework for future data integration efforts.
