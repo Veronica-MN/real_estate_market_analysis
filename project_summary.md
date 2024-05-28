@@ -125,7 +125,7 @@ To create a comprehensive, integrated dataset for further analysis and operation
 ## MDM Best Practices
 
 **Data Cleaning:**
-- Use context-specific methods for handling missing values, such as forward fill or backward fill.
+- Handle missing values by marking them as 'NA' to explicitly indicate unavailable data.
 - Standardize text data to lowercase and remove leading/trailing whitespace.
 - Create new columns for cleaned data while preserving original data for reference.
 
