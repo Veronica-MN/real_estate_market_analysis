@@ -35,7 +35,7 @@ The preprocessing step in this project involves
 Detailed data profiling is conducted to identify key data quality issues. Comprehensive HTML reports were generated using pandas-profiling, providing insights into missing values, duplicate records, data types, and value distributions. These reports are available in the repository:
 
 
-1. [Properties Profiling Report](properties_profiling_report.html)
+1. [Properties Profiling Report](data_profiling_customers_report.ipynb)
 2. [Customers Profiling Report](customers_profiling_report.html)
 
 
