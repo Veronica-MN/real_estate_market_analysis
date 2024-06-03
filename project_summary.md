@@ -11,19 +11,15 @@ Detailed data profiling is conducted to identify key data quality issues. Compre
 
 #### Baseline Data Quality Metrics:
 
-- Customers Dataset:
-Total Records: 162
-Missing Values Count: 22
-Missing Values Percentage: 1.05%
-Duplicates Count: 0
-Duplicates Percentage: 0.00%
 
- - Properties Dataset:
-Total Records: 267
-Missing Values Count: 144
-Missing Values Percentage: 5.39%
-Duplicates Count: 0
-Duplicates Percentage: 0.00%
+| Metric                    | Customers Dataset | Properties Dataset |
+|---------------------------|-------------------|--------------------|
+| **Total Records**         | 162               | 267                |
+| **Missing Values Count**  | 22                | 144                |
+| **Missing Values Percentage** | 1.05%          | 5.39%              |
+| **Duplicates Count**      | 0                 | 0                  |
+| **Duplicates Percentage** | 0.00%             | 0.00%              |
+
 
 ### Actions
 - **Generated Data Profiling Reports**: Detailed HTML reports were created using pandas-profiling to analyze missing values, duplicate records, data types, and value distributions.
