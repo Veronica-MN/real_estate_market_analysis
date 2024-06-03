@@ -7,6 +7,24 @@ This project is part of a Master Data Management (MDM) initiative aimed at integ
 ### Objective
 To gain an in-depth understanding of the raw data and identify key data quality issues.
 
+Detailed data profiling is conducted to identify key data quality issues. Comprehensive HTML reports were generated using pandas-profiling, providing insights into missing values, duplicate records, data types, and value distributions.
+
+#### Baseline Data Quality Metrics:
+
+- Customers Dataset:
+Total Records: 162
+Missing Values Count: 22
+Missing Values Percentage: 1.05%
+Duplicates Count: 0
+Duplicates Percentage: 0.00%
+
+ - Properties Dataset:
+Total Records: 267
+Missing Values Count: 144
+Missing Values Percentage: 5.39%
+Duplicates Count: 0
+Duplicates Percentage: 0.00%
+
 ### Actions
 - **Generated Data Profiling Reports**: Detailed HTML reports were created using pandas-profiling to analyze missing values, duplicate records, data types, and value distributions.
 - **Insights Gained**: The profiling reports provided critical insights that informed the subsequent data cleaning and standardization processes.
