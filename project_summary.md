@@ -20,6 +20,8 @@ Detailed data profiling is conducted to identify key data quality issues. Compre
 | **Duplicates Count**      | 0                 | 0                  |
 | **Duplicates Percentage** | 0.00%             | 0.00%              |
 
+This section documents the initial state of the data, providing a benchmark for measuring improvements after data cleaning and preprocessing.
+
 
 ### Actions
 - **Generated Data Profiling Reports**: Detailed HTML reports were created using pandas-profiling to analyze missing values, duplicate records, data types, and value distributions.
