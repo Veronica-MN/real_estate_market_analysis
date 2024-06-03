@@ -1,5 +1,9 @@
 # Real Estate Market Analysis
 
+## Project Context and Objective
+
+Understanding the real estate market is essential for professionals, investors, and policymakers. This project, initiated by a leading industry company, leverages Master Data Management (MDM) principles to ensure data quality and consistency. The goal is to preprocess, analyze, and visualize property and customer data, thereby generating meaningful insights into market trends and customer behaviors. These insights will support informed decision-making and strategic planning.
+
 ## Data Source
 
 The data in this Real Estate Market Analysis with Python project includes two .csv files, divided into two main tables. 
