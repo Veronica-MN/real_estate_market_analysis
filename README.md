@@ -97,6 +97,8 @@ The histogram takes only one variable: the age at purchase. Segmentation by Stat
  
 3. Pareto Chart
 
+The Pareto Chart represents the frequency of apartment sales by state. Then we have the line chart that represents the cumulative frequency of the apartment sales as shown in the chart below: 
+
 ![segmentation_of_US_clients](images/segmentation_clients.png)
    
 4. Total Sales per Year Line Chart
@@ -106,6 +108,8 @@ We can manipulate the date_sale variable and after that, create the relevant bre
 ![total_revenue_per_year](images/total_revenue.png)
 
 5. Total Sales per Year and Building Stacked Area Chart
+
+To plot the total number of sales per year and building, we create a breakdown by year and building, which requires creating a new data frame. Additionally, we can make (dummy) indicator variables based on the building_variable, which we store directly in our new data frame and rename appropriately. Then, after filtering the unsold properties, we can break down the year of the five building dummy variables.
 
 ![total_sales_by_year](images/total_sales_per_year_building.png)
 
