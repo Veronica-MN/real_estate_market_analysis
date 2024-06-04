@@ -143,7 +143,7 @@ Based on the data, we can deduce that most of the building are type 2 and 3:
 ![breakdown_by_building](images/breakdown_by_building.png)
 
 
-The average price and deal satisfaction shows:
+However, when we examine the average price and deal satisfaction, we notice something else. The average price and deal satisfaction shows:
 
 ![breakdown_building_deal_satisfaction](images/breakdown_building_deal_satisfaction.png)
 
