@@ -105,7 +105,9 @@ We can manipulate the date_sale variable and after that, create the relevant bre
 
 ![total_revenue_per_year](images/total_revenue.png)
 
-6. Total Sales per Year and Building Stacked Area Chart
+5. Total Sales per Year and Building Stacked Area Chart
+
+![total_sales_by_year](images/total_sales_per_year_building.png)
 
 ## Part 5: Data Intepretation and Recommendations
 
