@@ -84,10 +84,28 @@ For more detailed steps and insights, please refer to the [project summary repor
 ## Part 4: Data Visualisation
 
 1. Deal Satisfaction by Country Chart
+
+To plot the deal satisfaction by country, we need data showing a breakdown of deal satisfaction by country. Fortunately, we’ve created such a breakdown already with the averages by the country table. We can use it to create a bar chart using the Matplotlib bar method and plot the countries on the x-axis and the average satisfaction on the y-axis.
+
+![deal_satisfaction_by_country](images/deal_satisfaction.png)
+
 2. Age Distribution Histogram
+
+The histogram takes only one variable: the age at purchase. Segmentation by State Pareto Diagram. We display the relative and cumulative frequency of sold properties by state. For creating this visualisation, we use a figure with two subplots, the first showing the relative frequency as a bar chart, the second - the cumulative frequency as a line chart. 
+
+![age_distribution](images/age_distribution.png)
+ 
 3. Pareto Chart
+
+![segmentation_of_US_clients](images/segmentation_clients.png)
+   
 4. Total Sales per Year Line Chart
-5. Total Sales per Year and Building Stacked Area Chart
+
+We can manipulate the date_sale variable and after that, create the relevant breakdown of the year of sale and revenue and plot a line chart.
+
+![total_revenue_per_year](images/total_revenue.png)
+
+6. Total Sales per Year and Building Stacked Area Chart
 
 ## Part 5: Data Intepretation and Recommendations
 
